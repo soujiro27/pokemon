@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Juego Pokemon</title>
+	<link rel="stylesheet" href="pokemon.css">
+	<script src="jquery.js"></script>
+	<script src="jquery.knob.js"></script>
+	<script src="juego.js"></script>
+</head>
+<body>
+
+<header>
+	<h1>Batalla Pokemon</h1>
+</header>
+
+<section class="carga">
+	<article class="puntosPikachu">
+	<figure><img src="pikachu.png" ></figure>
+		<h2>El jugador cuenta con 50pts. los cuales debera de elegir distribuirlos entre Ataque y Defensa</h2>
+
+		<input type="number"  id="ataque" placeholder="Puntos de ataque">
+		<input type="number"  id="defensa" placeholder="Puntos de Defensa">
+		<button id="aceptar">Aceptar</button>
+		<h2 class="puntosAtaque"></h2>
+		<h2 class="puntosDefensa"></h2>
+	</article>
+	<article class="puntosJiglipuff">
+	<figure><img src="Jigglypuff.png" ></figure>
+		<h2>El jugador cuenta con 50pts. los cuales debera de elegir distribuirlos entre Ataque y Defensa</h2>
+
+		<input type="number"  id="ataque" placeholder="Puntos de ataque">
+		<input type="number"  id="defensa" placeholder="Puntos de Defensa">
+		<button id="aceptar">Aceptar</button>
+		<h2 class="puntosAtaque"></h2>
+		<h2 class="puntosDefensa"></h2>
+	</article>
+</section>
+
+<button id="turno">Turnos</button>
+</body>
+</html>
